@@ -29,7 +29,7 @@
                 <li class="menu-title">Menu</li>
 
                 <li>
-                    <a href="#sidebarDashboards" data-bs-toggle="collapse">
+                    <a href="index.html" data-bs-toggle="collapse">
                         <i data-feather="home"></i>
                         <span> Dashboard </span>
                         <span class="menu-arrow"></span>
@@ -39,9 +39,9 @@
                             <li>
                                 <a class='tp-link' href='index.html'>Analytical</a>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <a class='tp-link' href='ecommerce.html'>E-commerce</a>
-                            </li>
+                            </li> --}}
                         </ul>
                     </div>
                 </li>
@@ -55,40 +55,7 @@
 
                 <li class="menu-title">Pages</li>
 
-                <li>
-                    <a href="#sidebarAuth" data-bs-toggle="collapse">
-                        <i data-feather="users"></i>
-                        <span> Authentication </span>
-                        <span class="menu-arrow"></span>
-                    </a>
-                    <div class="collapse" id="sidebarAuth">
-                        <ul class="nav-second-level">
-                            <li>
-                                <a class='tp-link' href='auth-login.html'>Log In</a>
-                            </li>
-                            <li>
-                                <a class='tp-link' href='auth-register.html'>Register</a>
-                            </li>
-                            <li>
-                                <a class='tp-link' href='auth-recoverpw.html'>Recover Password</a>
-                            </li>
-                            <li>
-                                <a class='tp-link' href='auth-lock-screen.html'>Lock Screen</a>
-                            </li>
-                            <li>
-                                <a class='tp-link' href='auth-confirm-mail.html'>Confirm Mail</a>
-                            </li>
-                            <li>
-                                <a class='tp-link' href='email-verification.html'>Email Verification</a>
-                            </li>
-                            <li>
-                                <a class='tp-link' href='auth-logout.html'>Logout</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-
-                <li>
+                {{-- <li>
                     <a href="#sidebarError" data-bs-toggle="collapse">
                         <i data-feather="alert-octagon"></i>
                         <span> Error Pages </span>
@@ -113,7 +80,7 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
                 <li>
                     <a href="#sidebarExpages" data-bs-toggle="collapse">
@@ -123,23 +90,23 @@
                     </a>
                     <div class="collapse" id="sidebarExpages">
                         <ul class="nav-second-level">
-                            <li>
+                            {{-- <li>
                                 <a class='tp-link' href='pages-starter.html'>Starter</a>
-                            </li>
-                            <li>
+                            </li> --}}
+                            {{-- <li>
                                 <a class='tp-link' href='pages-profile.html'>Profile</a>
-                            </li>
-                            <li>
+                            </li> --}}
+                            {{-- <li>
                                 <a class='tp-link' href='pages-pricing.html'>Pricing</a>
-                            </li>
+                            </li> --}}
                             <li>
                                 <a class='tp-link' href='pages-timeline.html'>Timeline</a>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <a class='tp-link' href='pages-invoice'>Invoice</a>
-                            </li>
+                            </li> --}}
                             <li>
-                                <a class='tp-link' href='pages-faqs.html'>FAQs</a>
+                                <a class='tp-link' href='{{ route('user.faq.show',['username' => Auth::user()->username])}}'>FAQs</a>
                             </li>
                             <li>
                                 <a class='tp-link' href='pages-gallery.html'>Gallery</a>
@@ -163,7 +130,7 @@
 
                 <li class="menu-title mt-2">General</li>
 
-                <li>
+                {{-- <li>
                     <a href="#sidebarBaseui" data-bs-toggle="collapse">
                         <i data-feather="package"></i>
                         <span> Components </span>
@@ -239,14 +206,14 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
-                <li>
+                {{-- <li>
                     <a class='tp-link' href='widgets.html'>
                         <i data-feather="aperture"></i>
                         <span> Widgets </span>
                     </a>
-                </li>
+                </li> --}}
 
                 <li>
                     <a href="#sidebarAdvancedUI" data-bs-toggle="collapse">
@@ -298,23 +265,23 @@
                     </a>
                     <div class="collapse" id="sidebarForms">
                         <ul class="nav-second-level">
-                            <li>
+                            {{-- <li>
                                 <a class='tp-link' href='forms-elements'>General Elements</a>
-                            </li>
-                            <li>
+                            </li> --}}
+                            {{-- <li>
                                 <a class='tp-link' href='forms-validation.html'>Validation</a>
-                            </li>
+                            </li> --}}
                             <li>
                                 <a class='tp-link' href='forms-quilljs.html'>Quilljs Editor</a>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <a class='tp-link' href='forms-pickers'>Picker</a>
-                            </li>
+                            </li> --}}
                         </ul>
                     </div>
                 </li>
 
-                <li>
+                {{-- <li>
                     <a href="#sidebarTables" data-bs-toggle="collapse">
                         <i data-feather="table"></i>
                         <span> Tables </span>
@@ -330,9 +297,9 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
-                <li>
+                {{-- <li>
                     <a href="#sidebarCharts" data-bs-toggle="collapse">
                         <i data-feather="pie-chart"></i>
                         <span> Apex Charts </span>
@@ -396,24 +363,24 @@
                             </li>
                         </ul>
                     </div>
-                </li>
+                </li> --}}
 
                 <li>
-                    <a href="#sidebarMaps" data-bs-toggle="collapse">
+                    <a href="{{ route('maps.google')}}" data-bs-toggle="collapse" class="tp-link">
                         <i data-feather="map"></i>
-                        <span> Maps </span>
-                        <span class="menu-arrow"></span>
+                        <span> My Location </span>
+                        {{-- <span class="menu-arrow"></span> --}}
                     </a>
-                    <div class="collapse" id="sidebarMaps">
-                        <ul class="nav-second-level">
-                            <li>
-                                <a class='tp-link' href='maps-google.html'>Google Maps</a>
-                            </li>
-                            <li>
+                    {{-- <div class="collapse" id="sidebarMaps"> --}}
+                        {{-- <ul class="nav-second-level"> --}}
+                            {{-- <li>
+                                <a class='tp-link' href='{{route('maps.google')}}'>Google Maps</a>
+                            </li> --}}
+                            {{-- <li>
                                 <a class='tp-link' href='maps-vector.html'>Vector Maps</a>
-                            </li>
-                        </ul>
-                    </div>
+                            </li> --}}
+                        {{-- </ul> --}}
+                    {{-- </div> --}}
                 </li>
 
             </ul>

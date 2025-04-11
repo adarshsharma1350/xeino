@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <!-- Mirrored from zoyothemes.com/tapeli/html/maps-vector by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Nov 2024 12:52:13 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
@@ -65,7 +65,7 @@
                                     <span class="badge bg-danger rounded-circle noti-icon-badge">9</span>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-end dropdown-lg">
-        
+
                                     <!-- item-->
                                     <div class="dropdown-item noti-title">
                                         <h5 class="m-0">
@@ -76,9 +76,9 @@
                                             </span>Notification
                                         </h5>
                                     </div>
-        
+
                                     <div class="noti-scroll" data-simplebar>
-        
+
                                         <!-- item-->
                                         <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary active">
                                             <div class="notify-icon">
@@ -92,7 +92,7 @@
                                                 <small class="fs-14">Completed <span class="text-reset">Improve workflow in Figma</span></small>
                                             </p>
                                         </a>
-        
+
                                         <!-- item-->
                                         <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary">
                                             <div class="notify-icon">
@@ -103,7 +103,7 @@
                                                     <p class="notify-details">Olivia McGuire</p>
                                                     <small class="text-muted">1 min ago</small>
                                                 </div>
-                                    
+
                                                 <div class="d-flex mt-2 align-items-center">
                                                     <div class="notify-sub-icon">
                                                         <i class="mdi mdi-download-box text-dark"></i>
@@ -117,11 +117,11 @@
 
                                             </div>
                                         </a>
-        
+
                                         <!-- item-->
                                         <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary">
                                             <div class="notify-icon">
-                                                <img src="assets/images/users/user-3.jpg" class="img-fluid rounded-circle" alt="" /> 
+                                                <img src="assets/images/users/user-3.jpg" class="img-fluid rounded-circle" alt="" />
                                             </div>
                                             <div class="notify-content">
                                                 <div class="d-flex align-items-center justify-content-between">
@@ -131,7 +131,7 @@
                                                 <p class="noti-mentioned p-2 rounded-2 mb-0 mt-2"><span class="text-primary">@Patryk</span> Please make sure that you're....</p>
                                             </div>
                                         </a>
-        
+
                                         <!-- item-->
                                         <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary">
                                             <div class="notify-icon">
@@ -145,7 +145,7 @@
                                                 <small class="fs-14">Completed <span class="text-reset">Create new components</span></small>
                                             </p>
                                         </a>
-        
+
                                         <!-- item-->
                                         <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary">
                                             <div class="notify-icon">
@@ -159,11 +159,11 @@
                                                 <small class="fs-14">Completed <span class="text-reset">Improve workflow in React</span></small>
                                             </p>
                                         </a>
-        
+
                                         <!-- item-->
                                         <a href="javascript:void(0);" class="dropdown-item notify-item text-muted link-primary">
                                             <div class="notify-icon">
-                                                <img src="assets/images/users/user-6.jpg" class="img-fluid rounded-circle" alt="" /> 
+                                                <img src="assets/images/users/user-6.jpg" class="img-fluid rounded-circle" alt="" />
                                             </div>
                                             <div class="notify-content">
                                                 <div class="d-flex align-items-center justify-content-between">
@@ -174,21 +174,21 @@
                                             </div>
                                         </a>
                                     </div>
-        
+
                                     <!-- All-->
                                     <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
                                         View all
                                         <i class="fe-arrow-right"></i>
                                     </a>
-        
+
                                 </div>
                             </li>
-        
+
                             <li class="dropdown notification-list topbar-dropdown">
                                 <a class="nav-link dropdown-toggle nav-user me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                                     <img src="assets/images/users/user-11.jpg" alt="user-image" class="rounded-circle">
                                     <span class="pro-user-name ms-1">
-                                        Christian <i class="mdi mdi-chevron-down"></i> 
+                                        Christian <i class="mdi mdi-chevron-down"></i>
                                     </span>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-end profile-dropdown ">
@@ -196,35 +196,35 @@
                                     <div class="dropdown-header noti-title">
                                         <h6 class="text-overflow m-0">Welcome !</h6>
                                     </div>
-        
+
                                     <!-- item-->
                                     <a class='dropdown-item notify-item' href='pages-profile.html'>
                                         <i class="mdi mdi-account-circle-outline fs-16 align-middle"></i>
                                         <span>My Account</span>
                                     </a>
-        
+
                                     <!-- item-->
                                     <a class='dropdown-item notify-item' href='auth-lock-screen.html'>
                                         <i class="mdi mdi-lock-outline fs-16 align-middle"></i>
                                         <span>Lock Screen</span>
                                     </a>
-        
+
                                     <div class="dropdown-divider"></div>
-        
+
                                     <!-- item-->
                                     <a class='dropdown-item notify-item' href='auth-logout.html'>
                                         <i class="mdi mdi-location-exit fs-16 align-middle"></i>
                                         <span>Logout</span>
                                     </a>
-        
+
                                 </div>
                             </li>
-        
+
                         </ul>
                     </div>
 
                 </div>
-               
+
             </div>
             <!-- end Topbar -->
 
@@ -275,7 +275,7 @@
                                     </ul>
                                 </div>
                             </li>
-                
+
                             <!-- <li>
                                 <a href="landing.html" target="_blank">
                                     <i data-feather="globe"></i>
@@ -647,7 +647,7 @@
                             </li>
 
                         </ul>
-            
+
                     </div>
                     <!-- End Sidebar -->
 
@@ -660,7 +660,7 @@
             <!-- ============================================================== -->
             <!-- Start Page Content here -->
             <!-- ============================================================== -->
-        
+
             <div class="content-page">
                 <div class="content">
 
@@ -671,7 +671,7 @@
                             <div class="flex-grow-1">
                                 <h4 class="fs-18 fw-semibold m-0">Vector</h4>
                             </div>
-            
+
                             <div class="text-end">
                                 <ol class="breadcrumb m-0 py-0">
                                     <li class="breadcrumb-item"><a href="javascript: void(0);">Maps</a></li>
@@ -690,7 +690,7 @@
                                     <div class="card-body">
                                         <div id="world-mapline-markers"  style="height: 420px"></div>
                                     </div>
-                                </div>  
+                                </div>
                             </div>
 
                             <div class="col-lg-6">
@@ -701,7 +701,7 @@
                                     <div class="card-body">
                                         <div id="world-map-markers" data-colors='["#dee2e6"]' style="height: 420px"></div>
                                     </div>
-                                </div>  
+                                </div>
                             </div>
                         </div>
 
@@ -727,7 +727,7 @@
                                     <div class="card-body">
                                         <div id="usa-vectormap" data-colors='["#f0f4f7"]' style="height: 420px"></div>
                                     </div>
-                                </div>  
+                                </div>
                             </div>
 
                             <div class="col-lg-6">
@@ -738,7 +738,7 @@
                                     <div class="card-body">
                                         <div id="canada-vectormap" data-colors='["#f0f4f7"]' style="height: 420px"></div>
                                     </div>
-                                </div>  
+                                </div>
                             </div>
 
                             <div class="col-lg-6">
@@ -749,7 +749,7 @@
                                     <div class="card-body">
                                         <div id="russia-vectormap" data-colors='["#f0f4f7"]' style="height: 420px"></div>
                                     </div>
-                                </div>  
+                                </div>
                             </div>
 
                             <div class="col-lg-6">
@@ -760,7 +760,7 @@
                                     <div class="card-body">
                                         <div id="spain-vectormap" data-colors='["#f0f4f7"]' style="height: 420px"></div>
                                     </div>
-                                </div>  
+                                </div>
                             </div>
 
                             <div class="col-lg-6">
@@ -771,7 +771,7 @@
                                     <div class="card-body">
                                         <div id="iraq-vectormap" data-colors='["#f0f4f7"]' style="height: 420px"></div>
                                     </div>
-                                </div>  
+                                </div>
                             </div>
 
                             <div class="col-lg-6">
@@ -782,7 +782,7 @@
                                     <div class="card-body">
                                         <div id="us-lcc-vectormap" style="height: 420px"></div>
                                     </div>
-                                </div>  
+                                </div>
                             </div>
                         </div>
 
@@ -795,7 +795,7 @@
                                     <div class="card-body">
                                         <div id="us-mill-vectormap" style="height: 420px"></div>
                                     </div>
-                                </div>  
+                                </div>
                             </div>
                         </div>
 
@@ -807,7 +807,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col fs-13 text-muted text-center">
-                                &copy; <script>document.write(new Date().getFullYear())</script> - Made with <span class="mdi mdi-heart text-danger"></span> by <a href="#!" class="text-reset fw-semibold">Zoyothemes</a> 
+                                &copy; <script>document.write(new Date().getFullYear())</script> - Made with <span class="mdi mdi-heart text-danger"></span> by <a href="#!" class="text-reset fw-semibold">Zoyothemes</a>
                             </div>
                         </div>
                     </div>
@@ -833,7 +833,7 @@
         <!-- Vector map-->
         <script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
         <script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
-        
+
         <!-- US vector map -->
         <script src="assets/js/pages/us-merc-en-map.js"></script>
         <script src="assets/js/pages/us-lcc-en-map.js"></script>
@@ -847,7 +847,7 @@
 
         <!-- App js-->
         <script src="assets/js/app.js"></script>
-        
+
     </body>
 
 <!-- Mirrored from zoyothemes.com/tapeli/html/maps-vector by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Nov 2024 12:52:48 GMT -->

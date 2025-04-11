@@ -16,6 +16,38 @@
                 </li>
             </ul>
 
+            {{-- <ul class="list-unstyled topnav-menu mb-0 d-flex align-items-center"> --}}
+
+                {{-- <li> --}}
+                    {{-- <a href="#sidebarAuth" data-bs-toggle="collapse">
+                        <i data-feather="users"></i>
+                        <span>Register / Login </span>
+                        <span class="menu-arrow"></span>
+                    </a> --}}
+                    {{-- <div class="collapse" id="sidebarAuth"> --}}
+                        {{-- <ul class="nav-second-level"> --}}
+                            {{-- <li>
+                                <a class='tp-link' href='auth-login.html'>Log In</a>
+                            </li>
+                            <li>
+                                <a class='tp-link' href='auth-register.html'>Register</a>
+                            </li> --}}
+                            {{-- <li>
+                                <a class='tp-link' href='auth-recoverpw.html'>Recover Password</a>
+                            </li>
+                            <li>
+                                <a class='tp-link' href='auth-lock-screen.html'>Lock Screen</a>
+                            </li>
+                            <li>
+                                <a class='tp-link' href='auth-confirm-mail.html'>Confirm Mail</a>
+                            </li>
+                            <li>
+                                <a class='tp-link' href='email-verification.html'>Email Verification</a>
+                            </li> --}}
+                        {{-- </ul> --}}
+                    {{-- </div> --}}
+                {{-- </li> --}}
+            {{-- </ul> --}}
             <ul class="list-unstyled topnav-menu mb-0 d-flex align-items-center">
 
                 <li class="d-none d-sm-flex">
@@ -24,7 +56,7 @@
                     </button>
                 </li>
 
-                <li class="dropdown notification-list topbar-dropdown">
+                {{-- <li class="dropdown notification-list topbar-dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                         <i data-feather="bell" class="noti-icon"></i>
                         <span class="badge bg-danger rounded-circle noti-icon-badge">9</span>
@@ -147,43 +179,55 @@
                         </a>
 
                     </div>
-                </li>
+                </li> --}}
 
-                <li class="dropdown notification-list topbar-dropdown">
-                    <a class="nav-link dropdown-toggle nav-user me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                        <img src="assets/images/users/user-11.jpg" alt="user-image" class="rounded-circle">
-                        <span class="pro-user-name ms-1">
-                            Christian <i class="mdi mdi-chevron-down"></i>
-                        </span>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-end profile-dropdown ">
-                        <!-- item-->
-                        <div class="dropdown-header noti-title">
-                            <h6 class="text-overflow m-0">Welcome !</h6>
+                <li class="d-none d-sm-flex ">
+                    @auth
+                    <li class="dropdown notification-list topbar-dropdown">
+                        <a class="nav-link dropdown-toggle nav-user me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <img src="{{ asset('assets/images/users/user-11.jpg')}}" alt="user-image" class="rounded-circle">
+                            <span class="pro-user-name ms-1">
+                                {{ ucfirst(preg_replace('/[^a-zA-Z].*/','',Auth::user()->username)) }}<i class="mdi mdi-chevron-down"></i>
+                            </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end profile-dropdown ">
+                            <!-- item-->
+                            {{-- <div class="dropdown-header noti-title">
+                                <h6 class="text-overflow m-0">Welcome !</h6>
+                            </div> --}}
+
+                            <!-- item-->
+                            {{-- <a class='dropdown-item notify-item' href='{{ route('user.profile.show',Auth::user()->id ) }}'> --}}
+                            <a class='dropdown-item notify-item' href='{{ route('user.profile',Auth::user()->username ) }}'>
+                                <i class="mdi mdi-account-circle-outline fs-16 align-middle text-primary"></i>
+                                <span class="text-primary">My Account</span>
+                            </a>
+
+                            <!-- item-->
+                            <a class='dropdown-item notify-item' href='auth-lock-screen.html'>
+                                <i class="mdi mdi-lock-outline fs-16 align-middle text-dark"></i>
+                                <span class="text-dark">Lock Screen</span>
+                            </a>
+
+                            <div class="dropdown-divider"></div>
+
+                            <!-- item-->
+                                <form action ="{{ route('logout') }}" method="POST">
+                                    @csrf
+                                    <a class='dropdown-item notify-item'>
+                                        <button type="submit" class="btn btn-link text-danger">
+                                            <i class="mdi mdi-location-exit fs-16 align-middle text-danger"></i>
+                                            <span class="text-danger">Logout</span>
+                                        </button>
+                                    </a>
+                                </form>
                         </div>
-
-                        <!-- item-->
-                        <a class='dropdown-item notify-item' href='pages-profile.html'>
-                            <i class="mdi mdi-account-circle-outline fs-16 align-middle"></i>
-                            <span>My Account</span>
-                        </a>
-
-                        <!-- item-->
-                        <a class='dropdown-item notify-item' href='auth-lock-screen.html'>
-                            <i class="mdi mdi-lock-outline fs-16 align-middle"></i>
-                            <span>Lock Screen</span>
-                        </a>
-
-                        <div class="dropdown-divider"></div>
-
-                        <!-- item-->
-                        <a class='dropdown-item notify-item' href='auth-logout.html'>
-                            <i class="mdi mdi-location-exit fs-16 align-middle"></i>
-                            <span>Logout</span>
-                        </a>
-
-                    </div>
+                    </li>
+                    @else
+                        <span class="font-bold"><a href="{{ route('register') }}">Register</a></span>&nbsp;/&nbsp;<span><a href="{{ route('login') }}">Login</a></span>
+                    @endauth
                 </li>
+
 
             </ul>
         </div>
